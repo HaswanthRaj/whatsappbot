@@ -21,7 +21,7 @@ class web:
         self.canvas1 = tk.Canvas(self.root, width=500, height=500)
         self.canvas1.pack()
 
-        label1 = ttk.Label(self.root, text='Whatsapp Automation')
+        label1 = ttk.Label(self.root, text='Whatsapp Automation \nHaswanthRaj')
         label1.config(font=('helvetica', 14))
         self.canvas1.create_window(250, 25, window=label1)
 
